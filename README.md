@@ -2,9 +2,10 @@
 
 This code was originally released via Mark Murphy based on his paper: Fast L1-SPIRiT Compressed Sensing Parallel Imaging MRI: Scalable Parallel Implementation and Clinically Feasible Runtime, IEEE Transactions on Medical Imaging, volume 31, issue 6, pages 1250-1262.
 
-The source code was modified by Jia Sen:
-1. some bug fixes.
-2. recomplile the src to a dynamic link library (.so) via new makefile to be called in Gadgetron.
+The source code was modified for:
+1. some bugs fix.
+2. recomplile the src from exe to dynamic link library (.so) via new makefile 
+3. can be called in Gadgetron.
 3. use Armadillo and Intel MKL library for Spirit kernel calibration to replace the old ACML library.
 
 Known issues to be fixed:
