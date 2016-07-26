@@ -4,8 +4,8 @@ This code was originally released via Mark Murphy based on his paper: Fast L1-SP
 
 The source code was modified by Jia Sen:
 1. some bug fixes
-2. recomplile the src to a dynamic link library (.so) via new makefile
-3. use armadillo and Intel MKL library to replace the old ACML library
+2. recomplile the src to a dynamic link library (.so) via new makefile to be called in Gadgetron
+3. use Armadillo and Intel MKL library for Spirit kernel calibration to replace the old ACML library
 
 Known issues to be fixed:
 1. DB4 wavelet transform will lead to a dark line artifact with a strong L1 threshold.
